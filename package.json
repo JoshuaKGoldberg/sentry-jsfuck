@@ -1,0 +1,35 @@
+{
+  "name": "sentry-jsfuck",
+  "version": "0.1.0",
+  "description": "A Sentry SDK whose entire shipped implementation is the six characters []()!+",
+  "keywords": [
+    "sentry",
+    "jsfuck",
+    "esolang",
+    "error-tracking"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "./dist/sentry.jsfuck.js",
+  "exports": {
+    ".": "./dist/sentry.jsfuck.js"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "examples/",
+    "build.js",
+    "mock-ingest.js"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "mock": "node mock-ingest.js",
+    "example": "node examples/send-events.js"
+  },
+  "devDependencies": {
+    "jscrewit": "^3.4.0"
+  }
+}
