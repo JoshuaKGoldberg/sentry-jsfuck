@@ -5,6 +5,8 @@
 > not an official Sentry SDK, is not affiliated with or supported by Sentry, and is
 > nowhere near production-ready. Do not point it at anything you care about.
 
+<img align="right" alt="Stylized JSFuck logo in Sentry style" src="./logo.png">
+
 A working Sentry SDK for Node whose entire shipped implementation is six punctuation characters:
 
 ```
